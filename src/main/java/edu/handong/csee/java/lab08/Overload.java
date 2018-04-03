@@ -7,10 +7,10 @@ public class Overload {
 		int average1 = Overload.getAverage(10,20);
 		double average2 = getAverage(10.0, 20.0, 30.0); //why no object name?
 		char average3 = getAverage ('a', 'c');
-		
+				
 		System.out.println(average1);
 		System.out.println(average2);
-		System.out.println(average3);
+		System.out.println(average3);	
 		
 	}
 	
