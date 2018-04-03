@@ -5,7 +5,7 @@ public class Overload {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int average1 = Overload.getAverage(10,20);
-		double average2 = getAverage(10.0, 20.0, 30.0); //why no object name?
+		double average2 = getAverage(10.0, 20.0, 30.0); 
 		char average3 = getAverage ('a', 'c');
 				
 		System.out.println(average1);
